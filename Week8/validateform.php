@@ -8,6 +8,8 @@
 </head>
 <body>  
 
+<div class="center">
+
 <?php
 // define variables and set to empty values
 $nameErr = $emailErr = $genderErr = $websiteErr = "";
@@ -100,6 +102,8 @@ echo $comment;
 echo "<br>";
 echo $gender;
 ?>
+
+</div>
 
 </body>
 </html>
